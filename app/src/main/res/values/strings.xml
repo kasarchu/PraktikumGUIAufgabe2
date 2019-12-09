@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PraktikumGUIAufgabe2</string>
+    <string name="app_name">Mini Image Viewer</string>
+
+    <string name="quit">Beenden</string>
+
+    <string name="btnSelect">Auswählen</string>
+
 </resources>
