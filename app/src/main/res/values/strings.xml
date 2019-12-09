@@ -5,4 +5,9 @@
 
     <string name="btnSelect">Auswählen</string>
 
+    <string name="first">Fotos</string>
+    <string name="second">Screenshots</string>
+    <string name="third">Anderes Verzeichnis...</string>
+
+
 </resources>

@@ -13,27 +13,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnSelect"
-        android:textSize="30sp" />
-
-    <RadioButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fotos"
-        android:textSize="20sp"
-        android:
+        android:textSize="30sp"
+        android:clickable="false"
         />
 
-    <RadioButton
+    <ListView
+        android:id="@android:id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Bildschirmfotos"
-        android:textSize="20sp"/>
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice">
 
-    <RadioButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Anderes Verzeichnis..."
-        android:textSize="20sp"/>
+        <!--
+        <CheckedTextView
+            android:id="@+id/fotos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/first"
+            android:textSize="20sp" />
+
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second"
+            android:textSize="20sp" />
+
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/third"
+            android:textSize="20sp" />
+        -->
+    </ListView>
+
 
     <!--
     RadioButtons 3x
