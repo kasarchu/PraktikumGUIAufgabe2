@@ -24,6 +24,7 @@ import java.util.ArrayList;
 // AppCompatActivity wegen Toolbar
 public class MainActivity extends AppCompatActivity {
 
+    private Button btnTest;
     private Button btnAuswählen;
     private TextView tv;
     private ListView lv;
