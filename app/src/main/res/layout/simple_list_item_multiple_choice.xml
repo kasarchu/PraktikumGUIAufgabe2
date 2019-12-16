@@ -12,5 +12,4 @@
     android:checkMark="?android:attr/listChoiceIndicatorMultiple"
     style="@style/ListViewStyle"
     >
-
 </CheckedTextView>
